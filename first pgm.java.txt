@@ -1,0 +1,19 @@
+package swapNumber;
+
+public class SwapNumber {
+	int a=200,b=100,temp;
+	public void swappingNumber() {
+		temp=a;
+		a=b;
+		b=temp;
+		System.out.println(a);
+		System.out.println(b);
+	}
+
+	public static void main(String[] args) {
+		SwapNumber a=new SwapNumber();
+		a.swappingNumber();
+
+	}
+
+}
